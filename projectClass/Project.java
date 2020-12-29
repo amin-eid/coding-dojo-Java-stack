@@ -11,20 +11,20 @@ public class Project{
         this.description = description;
     }
 
-        //getting name
+        //get
         public String getName(){
             return this.name;
         }
-        //getting description
+        //get
         public String getDescription(){
             return this.description;
         }
 
-            // setting name
+            // set
     public void setName(String name){
         this.name = name;
     }
-    // setting description
+    // set
     public void setDescription(String description){
         this.description = description;
     }
