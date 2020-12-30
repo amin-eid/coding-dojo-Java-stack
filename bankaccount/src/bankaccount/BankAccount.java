@@ -70,22 +70,22 @@ public class BankAccount {
 	
 	
 	
-	public void withdrawChecking(int money){
-	    if (getCheckingbalance() < Double.valueOf(money)){
-	        System.out.println("You don't have enought money to take out more money.");
+	public void withdrawChecking(double money){
+	    if (getCheckingbalance() < money){
+	        System.out.println("No enough money to withdraw!");
 	    } 
 	    else{
-	        setCheckingbalance(getCheckingbalance() - Double.valueOf(money));
+	        setCheckingbalance(getCheckingbalance() - money);
 
 	    }
 	}
 
-	public void withdrawSavings(int money){
-	    if (getSavingsbalance() < Double.valueOf(money)){
-	        System.out.println("You don't have enought money to take out more money.");
+	public void withdrawSavings(double money){
+	    if (getSavingsbalance() < money){
+	        System.out.println("No enough money to withdraw!");
 	    } 
 	    else{
-	        this.setSavingsbalance(this.getSavingsbalance() - Double.valueOf(money));
+	        this.setSavingsbalance(this.getSavingsbalance() - money);
 	    }
 
 	}
