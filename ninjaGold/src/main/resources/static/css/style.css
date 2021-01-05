@@ -1,0 +1,7 @@
+body{
+	background-color:rgb(234, 234, 234);
+}
+.container{
+	display:flex;
+	justify-content:space-between;
+}
